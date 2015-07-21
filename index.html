@@ -25,10 +25,16 @@
     </header>
     <div class="container">
         <section class="col-xs-12 col-sm-8 col-sm-offset-2">  
-            <h2 id="question">Type the movie name and hit <span id="enter">enter</span>...</h2>
-            <input type="text" name="search" id="search-box" class="col-xs-12 form-control" placeholder="What's your favourite movie?" required="required" pattern="" title="">
+            <form id="search-form">
+                <h2 id="question">Type the movie name and hit <span id="enter">enter</span>...</h2>
+                <input class="form-control input-lg" name="movie-search" type="text" placeholder="What's your favourite movie?" id="search-box">
+            </form>
         </section> 
-        <section class="search-result">
+        <section class="col-xs-12 col-md-6 poster">
+            
+        </section>
+
+        <section class="col-xs-12 col-md-6 details">
             
         </section>
     </div>
