@@ -28,6 +28,10 @@ h2 {
   height: 5vh;
 }
 
+.poster {
+  padding: 2%;
+}
+
 input{
   background: none;
     -webkit-box-shadow: none;
