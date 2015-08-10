@@ -14,7 +14,15 @@ $(document).ready(function(){
 
     var successFunction = function(response){
         console.log(response);
+        $("img").attr("src", response.Poster);
+        $(".details").text(response.Title);
+        // Get poster
+        // var poster = function(response){
+        //   $("img").attr("src", response.Poster);
+        //   console.log("poster");
+        // };
     }
+
 
     $.ajax({
       type: "GET",
@@ -27,11 +35,7 @@ $(document).ready(function(){
 
 
 
-    //Get poster
-    // var poster = function(response){
-    //   $("img").attr("src", response.Poster);
-    //   console.log("poster");
-    // };
+
 
     //Get details
     // var keys = Object.keys(response);
